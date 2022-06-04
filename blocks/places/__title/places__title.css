@@ -1,0 +1,41 @@
+.places__title {
+    color: white;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__title {
+        color: white;
+        font-weight: 900;
+        font-size: 72px;
+        line-height: 106%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .places__title {
+        color: white;
+        font-weight: 900;
+        font-size: 42px;
+        line-height: 110%;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .places__title {
+        color: white;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 109%;
+        margin: 0;
+        padding: 0 0 0 16px;
+    }
+}

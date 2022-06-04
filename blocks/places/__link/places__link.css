@@ -1,0 +1,21 @@
+.places__link {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 122%;
+    text-decoration-line: underline;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .places__link {
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 122%;
+        text-decoration-line: underline;
+        margin: 0;
+        padding: 0 0 0 16px;
+    }
+}

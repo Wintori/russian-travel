@@ -1,0 +1,38 @@
+.intro__description {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    padding: 0 0 33px 0;
+    margin: 0;
+    max-width: 690px;
+    font-style: normal;
+}
+
+@media screen and (max-width: 768px) {
+
+    .intro__description {
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        padding: 0 0 34px 0;
+        margin: 0;
+        max-width: 720px;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width: 658px) {
+
+    .intro__description {
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 163%;
+        padding: 0 0 34px 0;
+        margin: 0;
+        max-width: 288px;
+        font-style: normal;
+    }
+}

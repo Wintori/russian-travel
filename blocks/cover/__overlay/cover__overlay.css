@@ -1,0 +1,85 @@
+.cover__overlay {
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    max-width: 1184px;
+    min-height: 740px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.cover__overlay:before {
+    content: '';
+    background: #2A2C2F;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+    transition: opacity .3s;
+}
+
+.cover__overlay:hover::before {
+    opacity: .8;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover__overlay {
+        background-image: url(../../../images/cover-trains.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 1184px;
+        min-height: 640px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__overlay {
+        background-image: url(../../../images/cover-trains.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 1184px;
+        min-height: 480px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .cover__overlay {
+        background-image: url(../../../images/cover-trains.jpg);
+        background-size: cover;
+        background-position: center;
+        max-width: 1184px;
+        min-height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+        position: relative;
+        text-decoration: none;
+    }
+}
