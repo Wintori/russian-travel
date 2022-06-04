@@ -7,7 +7,6 @@
 
     .lead {
         max-width: 928px;
-        margin: 0 auto;
     }
 
 }
@@ -16,7 +15,6 @@
 
     .lead {
         max-width: 768px;
-        margin: 0 auto;
     }
 
 }
@@ -25,7 +23,6 @@
 
     .lead {
         max-width: 320px;
-        margin: 0 auto;
     }
 
 }

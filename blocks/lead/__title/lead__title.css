@@ -13,13 +13,9 @@
 
     .lead__title {
         margin: 0 auto 16px;
-        padding: 0;
         font-size: 40px;
         line-height: 110%;
-        font-weight: 900;
         max-width: 288px;
-        text-align: center;
-        color: white;
     }
 
 }

@@ -11,13 +11,8 @@
 @media screen and (max-width: 768px) {
 
     .places__url-heading {
-        color: #AAAAAA;
-        font-weight: 400;
         font-size: 12px;
         line-height: 100%;
-        letter-spacing: 2px;
-        margin: 0 0 12px 0;
-        padding: 0;
     }
 
 }
@@ -25,11 +20,6 @@
 @media screen and (max-width: 600px) {
 
     .places__url-heading {
-        color: #AAAAAA;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 100%;
-        letter-spacing: 2px;
         padding: 0 0 0 16px;
         margin: 0 0 12px 0;
     }

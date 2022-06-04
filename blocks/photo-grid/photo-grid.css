@@ -7,29 +7,22 @@
 @media screen and (max-width: 1024px) {
 
     .photo-grid {
-        margin: 0 auto;
         max-width: calc(300px*2 + 328px);
-        padding-bottom: 92px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
 
     .photo-grid {
-        margin: 0 auto;
         max-width: calc(352px*2 + 16px);
         padding-bottom: 88px;
     }
-
 }
 
 @media screen and (max-width: 657px) {
 
     .photo-grid {
-        margin: 0 auto;
-        max-width: calc(288px);
+        max-width: 288px;
         padding-bottom: 64px;
     }
-
 }
