@@ -1,7 +1,22 @@
 .header__lang-link {
-    display: flex;
+    display: inline;
     margin: 0;
-    gap: 18px;
     padding: 0;
-    text-decoration: none;
+    font-size: 24px;
+    line-height: 117%;
+    font-weight: 400;
+    color: white;
+    transition: opacity .2s linear;
+}
+
+.header__lang-link:hover {
+    opacity: .8;
+}
+
+@media screen and (max-width: 390px) {
+
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 111%;
+    }
 }

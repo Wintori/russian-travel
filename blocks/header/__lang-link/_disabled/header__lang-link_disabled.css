@@ -1,9 +1,0 @@
-.header__lang-link_disabled {
-    text-decoration: none;
-    color: white;
-    transition: opacity .2s linear;
-}
-
-.header__lang-link_disabled:hover {
-    opacity: .5;
-}
