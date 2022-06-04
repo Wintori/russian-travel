@@ -1,4 +1,9 @@
 .header__lang-link_active {
     text-decoration: underline;
     color: white;
+    transition: opacity .2s linear;
+}
+
+.header__lang-link_active:hover {
+    opacity: .5;
 }

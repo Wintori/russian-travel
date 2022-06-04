@@ -6,6 +6,11 @@
     text-decoration-line: underline;
     margin: 0;
     padding: 0;
+    transition: opacity .2s linear;
+}
+
+.places__link:hover {
+    opacity: .5;
 }
 
 @media screen and (max-width: 600px) {
